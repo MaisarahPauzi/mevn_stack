@@ -29,7 +29,7 @@ router.delete('/:id', async (req, res) => {
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(
-    'mongodb+srv://maipau:maipau123@cluster0-hna34.mongodb.net/test?retryWrites=true&w=majority',
+    'YOUR MONGO DB URL',
     {
       useNewUrlParser: true
     }
